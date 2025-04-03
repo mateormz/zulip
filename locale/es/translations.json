@@ -31,7 +31,7 @@
   "30 minutes": "30 minutos",
   "5 minutes": "5 minutos",
   "6 hours": "6 horas",
-  "90 days": "",
+  "90 days": "90 días",
   "<b>Total messages</b>: {total_messages}": "<b>Mensajes totales</b>: {total_messages}",
   "<kbd>Enter</kbd> sends when composing a message": "",
   "<p><strong>{file_name}</strong> will be removed from the messages where it was shared. This action cannot be undone.</p>": "<p><strong>{file_name}</strong> será removido de los mensajes donde ha sido compartido. Esta acción no puede ser revertida.</p>",
