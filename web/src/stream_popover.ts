@@ -113,6 +113,7 @@ function build_stream_popover(opts: {elt: HTMLElement; stream_id: number}): void
         stream: {
             ...sub_store.get(stream_id),
             url: browser_history.get_full_url(stream_hash),
+            get_subscriber_count:stream_data.get_subscriber_count(stream_id),
         },
         has_unread_messages,
         show_go_to_channel_feed,

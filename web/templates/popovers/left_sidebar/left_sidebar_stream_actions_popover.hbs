@@ -7,8 +7,19 @@
                   is_web_public=stream.is_web_public }}
             </span>
             <span class="popover-stream-name">{{stream.name}}</span>
+
+            <li role="none" class="link-item popover-menu-list-item hidden-for-spectators">
+            <a role="menuitem" class="mark_stream_as_unread popover-menu-link" tabindex="0">
+                <i class="popover-menu-icon zulip-icon zulip-icon-mark-as-unread" aria-hidden="true"></i>
+                <span class="popover-menu-label">
+                    {{stream.get_subscriber_count}}
+                    {{t "subscriptores"}}</span>
+                </span>
+            </a>
+        </li>
         </li>
         <li role="separator" class="popover-menu-separator"></li>
+        
         {{#if has_unread_messages}}
         <li role="none" class="link-item popover-menu-list-item hidden-for-spectators">
             <a role="menuitem" class="mark_stream_as_read popover-menu-link" tabindex="0">
